@@ -1,0 +1,71 @@
+body {
+    font-family: 'Prompt', sans-serif;
+    background-image: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.5) 35%,  rgb(0, 0, 0, 0.4) 65%, rgb(0, 0, 0, 0.2) 90%), url("../images/background-truck.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    background-color: rgb(237, 219, 192);
+    color: white;
+    text-shadow: rgba(0, 0, 0, 0.7) 1px 0 3px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .eingabefeld {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(128,45,35);
+    border-radius: 20px;
+  }
+  
+  .kontakt-button {
+    background-color: rgb(128,45,35);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .kontakt-button:hover {
+    background-image: radial-gradient(circle at 50% 50%, rgb(126, 54, 54) 1%, rgb(59, 32, 32) 1%);
+    background-size: 100000% 100000%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    transition: background-size linear 0.03s;
+  }
+
+  .kontakt-button:hover:active {
+    transition-duration: 1s;
+    background-size: 100% 100%;
+  }
+
+
+  

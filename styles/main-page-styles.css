@@ -1,0 +1,173 @@
+html {
+    height: 100%;
+    font-family: 'Prompt', sans-serif;
+    background-image: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.5) 35%,  rgb(0, 0, 0, 0.4) 65%, rgb(0, 0, 0, 0.2) 90%), url("../images/background-truck.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.header {
+    margin-top: 10rem;
+}
+
+.main {
+    margin: 10% 10%;
+    color: rgb(237, 219, 192);
+    text-align: center;
+}
+
+.truck-logo {
+    width: 20%;
+    animation-name: truck-logo-animation;
+    animation-duration: 4s;
+}
+
+@media (max-width: 22.5em) {
+    .truck-logo {
+        width: 40%;
+    }
+}
+
+@media (max-height: 43em) {
+    .truck-logo {
+        width: 40%;
+    }
+}
+
+.main-page {
+    position: relative;
+    
+}
+
+.logo-container {
+   position: absolute;
+   bottom: 20rem;
+   left: 45%;
+}
+
+@media (max-width: 22.5em) {
+    .logo-container {
+        bottom: 23em;
+        left: 40%;
+    }
+}
+
+@media (max-height: 43em) {
+    .logo-container {
+        bottom: 28em;
+        left: 41%;
+    }
+}
+
+.heading-container {
+    margin-top: 25rem;
+}
+
+
+@media (max-width: 22.5em) {
+    .heading-container {
+        margin-top: 6em;
+    }
+}
+
+@media (max-height: 43em) {
+    .heading-container {
+        margin-top: 10em;
+    }
+}
+
+
+
+.main-heading {
+    margin-bottom: 1.7rem;
+    text-shadow: 1px 1px 10px black;
+}
+
+.sub-heading {
+    line-height: 1.5rem;
+    text-shadow: 1px 1px 5px black;
+}
+
+.buttons {
+    margin-top: 2rem;
+}
+
+.kontakt {
+    text-decoration: none;
+    color: rgb(237, 219, 192);
+    border-radius: 50px;
+    font-family: 'Prompt', sans-serif;
+    background-color:  rgb(128, 45, 35);
+    padding: 5px 10px 5px 18px;
+
+    /*transition: 0.3s ease-in;*/
+}
+
+.menu {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: rgb(237, 219, 192);
+    border-radius: 50px;
+    font-family: 'Prompt', sans-serif;
+    background-color:   rgb(128, 45, 35);
+    padding: 5px 20px;
+
+    
+}
+
+.kontakt:hover {
+    background-image: radial-gradient(circle at 50% 50%, rgb(126, 54, 54) 1%, rgb(59, 32, 32) 1%);
+    background-size: 10000% 10000%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    transition: background-size linear 0.1s;
+}
+
+.kontakt:hover:active {
+    transition-duration: 0s;
+    background-size: 100% 100%;
+}
+
+.menu:hover {
+    background-image: radial-gradient(circle at 50% 50%, rgb(126, 54, 54) 1%, rgb(59, 32, 32) 1%);
+    background-size: 10000% 10000%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    transition: background-size linear 0.03s;
+}
+
+.menu:hover:active {
+    transition-duration: 0s;
+    background-size: 100% 100%;
+}
+
+
+@keyframes truck-logo-animation {
+    0% {
+        width: 0%;
+    }
+
+    70% {
+        width: 20%;
+    }
+
+    80% {
+        width: 30%;
+    }
+    
+    90% {
+        width: 20%;
+    }
+
+    95% {
+        width: 30%;
+    }
+
+    100% {
+        width: 20%;
+    }
+}
+

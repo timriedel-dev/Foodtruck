@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles/kontakt.css">
+<link rel="stylesheet" type="text/css" href="styles/main.css">
+<title>Kontaktformular</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Schreib uns einfach, welches Menu du willst und wir kontaktieren dich!</h1>
+    <form class="kontakt-formular" action="/" method="POST">
+      <label class="kontakt-label" for="name">Name:</label>
+      <input class="eingabefeld" type="text" id="name" name="name" required>
+      
+      <label class="kontakt-label" for="email">Email:</label>
+      <input class="eingabefeld" type="email" id="email" name="email" required>
+      
+      <label class="kontakt-label" for="message">Nachricht an uns:</label>
+      <textarea class="eingabefeld" id="message" name="message" rows="4" required></textarea>
+      
+      <button class="kontakt-button" type="submit">Absenden</button>
+    </form>
+  </div>
+</body>
+</html>
